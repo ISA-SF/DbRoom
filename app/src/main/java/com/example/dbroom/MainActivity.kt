@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity(){
     }
 
     fun checkoutCommit(){
-        Log.d(ContentValues.TAG, "prueba para ver el checkout commit en nueva rama")
+        Log.d(ContentValues.TAG, "prueba para ver el checkout commit anterior con stash")
     }
 
     fun nuevoCommit(){
