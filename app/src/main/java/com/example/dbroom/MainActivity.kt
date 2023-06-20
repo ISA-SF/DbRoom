@@ -1,8 +1,10 @@
 package com.example.dbroom
 
+import android.content.ContentValues
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.dbroom.databinding.ActivityMainBinding
 
@@ -18,6 +20,10 @@ class MainActivity : AppCompatActivity(){
         screenSplash.setKeepOnScreenCondition { true }
         startActivity(Intent(this, crud_data::class.java))
         finish()
+    }
+
+    fun checkoutCommit(){
+        Log.d(ContentValues.TAG, "prueba para ver el checkout commit en nueva rama")
     }
 
 }
