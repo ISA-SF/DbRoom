@@ -26,4 +26,8 @@ class MainActivity : AppCompatActivity(){
         Log.d(ContentValues.TAG, "prueba para ver el checkout commit en nueva rama")
     }
 
+    fun nuevoCommit(){
+        Log.d(ContentValues.TAG, "commit x")
+    }
+
 }
