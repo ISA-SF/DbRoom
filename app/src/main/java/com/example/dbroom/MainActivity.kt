@@ -30,4 +30,7 @@ class MainActivity : AppCompatActivity(){
         Log.d(ContentValues.TAG, "commit x")
     }
 
+    fun checkoutCommit2(){
+        Log.d(ContentValues.TAG, "commit x2 con stash XD add ultimos cambios de master")
+    }
 }
